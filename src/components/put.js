@@ -6,13 +6,13 @@ import { useState,useEffect } from "react";
 
 
 const baseURL = "https://6788a3762c874e66b7d5bd19.mockapi.io/v12/users/"
-var id = 4;
+var id = 6;
 
 export function Put(){
     const [put,setPut] = useState(null);
 
-    const fname = "Aditya";
-    const lname = "Jadhav";
+    const fname = "Sarthak";
+    const lname = "Dongare";
 
     useEffect(()=>{
         axios.get(baseURL + id).then((response) =>{

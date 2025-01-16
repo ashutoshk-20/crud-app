@@ -1,5 +1,5 @@
 import './App.css';
-import { Post ,Get,Delete,Put} from './components';
+import { Post ,Get,Delete,Put,AddEmployee} from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Get/>
       <Delete/>
       <Put/>
+      <AddEmployee/>
     </div>
   );
 }
